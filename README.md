@@ -1,6 +1,6 @@
 # api-express-sequelize
 
-Exemplo de API REST, com express e mongoose apresentado na disciplina de Bancos de Dados II, do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, do IFPB/campus Cajazeiras
+Exemplo de API REST, com express, mongoose e neo4j-driver apresentado na disciplina de Bancos de Dados II, do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, do IFPB/campus Cajazeiras
 
 ## Inicialização
 Para inicializar a API vocês deverão:
@@ -9,10 +9,13 @@ Para inicializar a API vocês deverão:
 
 Exemplo do arquivo .env (trocar os valores das chaves pelos dados do seu banco):
 ```
-ATLAS_HOST = O host do seu cluster
-MONGO_USER = Seu usuário no Atlas
-MONGO_PASSWORD = Sua senha
+MONGO_HOST = localhost
+MONGO_PORT = 27017
+MONGO_DATABASE = aula
 API_PORT = 3000
+NEO4J_HOST = localhost
+NEO4J_USER = neo4j
+NEO4J_PASSWORD = [sua senha]
 ```
 
 3. ```npm i```
